@@ -8,34 +8,51 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('bck.avif');
+            background-repeat: repeat;
+            background-position: center;
+			background-size: 45%; /* Passen Sie diesen Wert an, um die Größe des Bildes zu ändern */
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.8); /* Adjusted transparency */
+            border-radius: 15px;
+            padding: 20px;
         }
         #plan {
             text-align: center;
             padding: 5%;
         }
-        img {
-            width: 100%;
-            padding: 2%;
+		img {
+			max-width: 300px; /* Passen Sie diesen Wert an, um die Höhe zu ändern */
+			width: auto;
+			padding: 2%;
+		}
+        h1 {
+            text-align: center;
+            color: #b30000;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <h1>Merry Christmas!</h1> <!-- Moved inside the container -->
         <div id="plan">
-            <h2>Plan</h2>
-            <p>2 Wellness Tage in Bad Kissingen</p>
+            <h2>Gutschein für 2 Wellness-Tage in Bad Kissingen</h2>
+            <p></p>
+			<img src="stadt.jpg" alt="stadt">
+			            <p></p>
+			including:
+			            <p></p>
+			<img src="therme.jpg" alt="Therme">
+            <p>Therme</p>
             <img src="massage.jpg" alt="Massage">
             <p>Massage</p>
-            <img src="therme.jpg" alt="Therme">
-            <p>Therme</p>
             <img src="airbnb.jpg" alt="Airbnb/Hotel">
             <p>Airbnb/Hotel</p>
+			<img src="3.png" alt="3">
         </div>
     </div>
 </body>
